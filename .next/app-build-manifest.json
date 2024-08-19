@@ -3,7 +3,6 @@
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
     "/layout": [
@@ -22,15 +21,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/layout.js"
     ],
-    "/dashboard/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/page.js"
-    ],
     "/dashboard/invoices/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/invoices/page.js"
+    ],
+    "/dashboard/(overview)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/(overview)/page.js"
+    ],
+    "/dashboard/(overview)/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/(overview)/loading.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
