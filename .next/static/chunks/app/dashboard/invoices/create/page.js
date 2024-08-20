@@ -49,6 +49,7 @@ eval(__webpack_require__.ts("// This file must be bundled in the app's client la
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   authenticate: function() { return /* binding */ authenticate; },
 /* harmony export */   createInvoice: function() { return /* binding */ createInvoice; },
 /* harmony export */   deleteInvoice: function() { return /* binding */ deleteInvoice; },
 /* harmony export */   updateInvoice: function() { return /* binding */ updateInvoice; }
@@ -63,10 +64,11 @@ function __build_action__(action, args) {
   return (0,next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__.callServer)(action.$$id, args)
 }
 
-/* __next_internal_action_entry_do_not_use__ {"0291a3775674884ac931bb9ff44be08f13da3d4e":"createInvoice","a73acafc2eb5b54a77afe302c9cabfbf7cb2fcdc":"deleteInvoice","ffcd429b93f3188619306dccd7b9edeee84d0c57":"updateInvoice"} */ var deleteInvoice = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("a73acafc2eb5b54a77afe302c9cabfbf7cb2fcdc");
+/* __next_internal_action_entry_do_not_use__ {"0291a3775674884ac931bb9ff44be08f13da3d4e":"createInvoice","36fa826180c431a1acae7c5f65a211327bc3c669":"authenticate","a73acafc2eb5b54a77afe302c9cabfbf7cb2fcdc":"deleteInvoice","ffcd429b93f3188619306dccd7b9edeee84d0c57":"updateInvoice"} */ var authenticate = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("36fa826180c431a1acae7c5f65a211327bc3c669");
 
 var createInvoice = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("0291a3775674884ac931bb9ff44be08f13da3d4e");
 var updateInvoice = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("ffcd429b93f3188619306dccd7b9edeee84d0c57");
+var deleteInvoice = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("a73acafc2eb5b54a77afe302c9cabfbf7cb2fcdc");
 
 
 
