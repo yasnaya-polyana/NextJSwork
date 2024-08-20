@@ -1,5 +1,4 @@
-## Next.js App Router Course - Starter
+## Oscar Invoices This is a Dashboard Invoicing app 
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
-
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+Deploy here: https://next-j-swork-gamma.vercel.app/
+Bypass login head to /dashboard 
